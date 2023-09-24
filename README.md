@@ -1,6 +1,6 @@
-#Team: NP-completing
+# Team: NP-completing
 
-##Team members:
+## Team members:
 	krishna teja kaspe
 	kyshan Neheeth
 	yeshaswiniVasudev
