@@ -18,21 +18,33 @@ def main():
         # st.image("IMAGE_PATH")
         st.title("SIDE_BAR_TITLE")
         choice = st.radio(
-            "Menu", ["Home", "Single Prediction", "Batch Prediction"])
+            "Menu", ["Home", "MBTA","Single Prediction", "Batch Prediction"])
         st.info(
             "PROJECT_DESCRIPTION")
     
     # Now lets add content to each sub-page of your site
     if choice == "Home":
         # Add a title and some text to the app:
-        st.title("Hackathon Model Showcase")
+        st.title("Daily Commute decision model")
         st.write(
-            "Welcome to the Hackathon Model Showcase! Enter the necessary input and see live predictions.")
+            "Welcome to the Hackathon Model Showcase by Team NP-completing! Enter the necessary input and see smarter commute choices.")
+   
+    elif choice == "MBTA":
+        st.title("Single Prediction")
+        st.write("choose your T line")
+        purplelineroutes={'Middleborough/Lakeville':0,'Lowell':0,'Haverhill':0,'Kingston':0,'Needham':0,'Fitchburg':0,
+                          'Greenbush':0,'Fairmount':0,'Providence/Stoughton':0,'Newburyport/Rockport':0,'Framingham/Worcester':0,
+                          'Franklin/Foxboro':0}
+        selectedoption = st.selectbox(label='LINE',options=purplelineroutes.keys())
+        purplelineroutes[selectedoption] = 1
+        date = st.date_input(label='Please select date')
+        time = st.time_input(label='Please select time')
+        print(date,time)
 
     elif choice == "Single Prediction":
         # Add a title and some text to the app:
         st.title("Single Prediction")
-        st.write("Enter the necessary input and see live predictions.")
+        st.write("Enter the necessary input and see smarter commute choices.")
 
         # Add your input fields here
         # For example:
@@ -50,7 +62,7 @@ def main():
     elif choice == "Batch Prediction":
         # Add a title and some text to the app:
         st.title("Batch Prediction")
-        st.write("Upload a CSV file and see live predictions.")
+        st.write("Upload a CSV file and see smarter commute choices.")
 
         # Add a file uploader to upload a CSV file
         uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
