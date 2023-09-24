@@ -19,3 +19,10 @@ Developing a decision-making model for MBTA commuters by allowing users to deter
 	python3 -m venv venv
 	pip3 install -r requirements.txt
 	streamlit run template.py
+
+## How to setup for Windows
+	git clone : https://github.com/YeshaswiniVasudev/Hackathon.git
+	python -m venv henv
+	.\henv\Scripts\activate
+	pip3 install -r requirements.txt
+	streamlit run template.py
