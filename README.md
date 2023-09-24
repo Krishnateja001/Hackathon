@@ -28,9 +28,9 @@ Developing a decision-making model for MBTA commuters by allowing users to deter
 	streamlit run template.py
 
 ## Link to model file
-	ride_price.joblib file
+#### ride_price.joblib file
 	https://drive.google.com/file/d/1b8uqCFw_Kc2bBQD2eOOQaTcU5TQjAUSb/view?usp=drive_link
-	ride.csv file
+#### ride.csv file
 	https://drive.google.com/file/d/1EnVX5j7l1bc_QpzjK5niOF_Ha978WEmO/view?usp=drive_link
 
 ## Use case
