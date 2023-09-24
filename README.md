@@ -14,7 +14,8 @@ Developing a decision-making model for MBTA commuters by allowing users to deter
  This model empowers users to select the most suitable commuting option based on crowd conditions, timing, and cost-efficiency.
 
 
-## How to setup
+## How to setup for MacOS
 	git clone : https://github.com/YeshaswiniVasudev/Hackathon.git
 	python3 -m venv venv
 	pip3 install -r requirements.txt
+	streamlit run template.py
