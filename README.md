@@ -14,10 +14,24 @@ Developing a decision-making model for MBTA commuters by allowing users to deter
  This model empowers users to select the most suitable commuting option based on crowd conditions, timing, and cost-efficiency.
 
 
-## How to setup
+## How to setup on Mac
 	git clone : https://github.com/YeshaswiniVasudev/Hackathon.git
 	python3 -m venv venv
 	pip3 install -r requirements.txt
+	streamlit run template.py
+
+## How to setup on windows
+	git clone : https://github.com/YeshaswiniVasudev/Hackathon.git
+	python3 -m venv henv
+	.\henv\Scripts\activate
+	pip install -r requirements.txt
+	streamlit run template.py
+
+## Link to model file
+	ride_price.joblib file
+	https://drive.google.com/file/d/1b8uqCFw_Kc2bBQD2eOOQaTcU5TQjAUSb/view?usp=drive_link
+	ride.csv file
+	https://drive.google.com/file/d/1EnVX5j7l1bc_QpzjK5niOF_Ha978WEmO/view?usp=drive_link
 
 ## Use case
 - MBTA : Select the MBTA line to know the expected crowd level
