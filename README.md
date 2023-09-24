@@ -12,3 +12,7 @@ Developing a decision-making model for MBTA commuters by allowing users to deter
 	The availability of Uber or Lyft 
 	Predicted prices 
  This model empowers users to select the most suitable commuting option based on crowd conditions, timing, and cost-efficiency.
+
+
+## How to setup
+python3 -m venv venv
