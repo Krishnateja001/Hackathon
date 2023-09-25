@@ -1,4 +1,5 @@
-# Team: NP-completing
+# UMASS BOSTON 2023 CS CLUB HACKATHON
+## Team: NP-completing
 
 ## Team members:
 	krishna teja kaspe
